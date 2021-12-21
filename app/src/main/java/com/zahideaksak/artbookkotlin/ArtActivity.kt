@@ -105,7 +105,7 @@ class ArtActivity : AppCompatActivity() {
                 statement.execute() //uygula
             } catch (e: Exception) {
                 e.printStackTrace()
-            }
+            }""
 
             val intent = Intent(this@ArtActivity, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
